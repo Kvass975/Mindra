@@ -17,7 +17,7 @@ const About = () => {
                 </div>
                 <div className="about__paragraph-3">
                     <h2 className="about__heading">Kā mēs šo panākam?</h2>
-                    <p className="about__text">Mēs izmantojam pasaulē izplatītākās un pieprasītākās tehnoloģijas, lai izgatavotu kvalitatīvāko projektu, kā React.js un SCSS priekš vizuālās daļas, Node.js un linux priekš serveriem, un MySQL un MongoDB priekš datubāzēm.</p>
+                    <p className="about__text">Mēs izmantojam pasaulē izplatītākās un pieprasītākās tehnoloģijas, lai izgatavotu kvalitatīvāko projektu, kā React.js un SCSS priekš vizuālās daļas, Node.js un Linux priekš serveriem, un MySQL un MongoDB priekš datubāzēm.</p>
                 </div>
             </div>
             <div className="about__images">
