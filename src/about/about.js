@@ -9,7 +9,7 @@ const About = () => {
             <div className="about__paragraph">
                 <div className="about__paragraph-1">
                     <h2 className="about__heading">Kas mēs esam?</h2>
-                    <p className="about__text">Mēs esam Jelgavā bāzētst IT uzņēmums, kas nodarbojas ar dažādu pakalpojumu nodrošināšanu.</p>
+                    <p className="about__text">Mēs esam Jelgavā bāzēts IT uzņēmums, kas nodarbojas ar dažādu pakalpojumu nodrošināšanu.</p>
                 </div>
                 <div className="about__paragraph-2">
                     <h2 className="about__heading">Ko mēs piedāvājam?</h2>
