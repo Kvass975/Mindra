@@ -32,11 +32,9 @@
 .table{
     width: 75%;
     height: 100%;
-    border: 1px solid;
 }
 table,th,tr{
     height: 50px;
-    border: 1px solid;
     border-collapse: collapse;
     font-size: 1.5rem;
 }
@@ -46,12 +44,23 @@ th{
 }
 td{
     text-align: center;
-    border: 1px solid;
     height: 10%;
     font-size: 1.5rem;
 } 
-tr:nth-child(odd){background-color: #74c69d;}
-tr:nth-child(even){background-color: #e9ecef}
+tr{
+    transition: all .2s;
+}
+tr:nth-child(even){background-color: #74c69d;}
+tr:nth-child(odd){background-color: #e9ecef}
+
+tr:nth-child(odd):hover{
+    background-color: darken(#e9ecef, 8%);
+    transform: scale(1.05);
+}
+tr:nth-child(even):hover{
+    background-color: darken(#74c69d, 8%);
+    transform: scale(1.05);
+}
 
 .premium{
     color: gold;
