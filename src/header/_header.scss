@@ -1,16 +1,20 @@
 .header__main{
     width: 100%;
-    z-index: 2;
+    z-index: 1;
     background-image: linear-gradient(to right, $color-main-green, $color-main-green__medium);
-    height: 80vh;
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 80%);
+    height: 100vh;
+    //clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 80%);
 
     &-nav{
+        background-image: linear-gradient(to right, $color-main-green, $color-main-green__medium);
+        top: 0;
+        z-index: 100;
+        position: fixed;
         width: 100%;
         height: 10%;
         display: flex;
         &--logo{
-            width: 20%;
+            width: 18%;
             height: 100%;
             display: flex;
         }
@@ -60,5 +64,11 @@
     }
 }
 .logo{
-    width: 100px;
+    width: 115px;
+}
+.white-sharp{
+    width: 100%;
+    background-color: #f8f9fa;
+    height: 30%;
+    clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 100%);
 }
